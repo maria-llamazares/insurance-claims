@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Claims</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 350px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 25px;
+            background-color: #ff6f61;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            text-decoration: none;
+        }
+
+        .button i {
+            margin-right: 10px;
+            font-size: 22px;
+        }
+
+        .button:hover {
+            background-color: #ff5a4d;
+        }
+
+        .button:active {
+            transform: scale(0.98);
+        }
+
+        .button-container a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Insurance Claims</h1>
+        <div class="button-container">
+            <a href="#" class="button"><i class="fas fa-home"></i> House Insurance</a>
+            <a href="#" class="button"><i class="fas fa-plane"></i> Travel Insurance</a>
+            <a href="#" class="button"><i class="fas fa-shopping-cart"></i> Purchase Insurance</a>
+            <a href="#" class="button"><i class="fas fa-car"></i> Traffic Insurance</a>
+        </div>
+    </div>
+
+</body>
+</html>
