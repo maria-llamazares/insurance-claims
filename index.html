@@ -82,12 +82,18 @@
     <div class="container">
         <h1>Insurance Claims</h1>
         <div class="button-container">
-            <a href="#" class="button"><i class="fas fa-home"></i> House Insurance</a>
+            <a id="house-btn"  class="button"><i class="fas fa-home"></i> House Insurance</a>
             <a href="#" class="button"><i class="fas fa-plane"></i> Travel Insurance</a>
             <a href="#" class="button"><i class="fas fa-shopping-cart"></i> Purchase Insurance</a>
             <a href="#" class="button"><i class="fas fa-car"></i> Traffic Insurance</a>
         </div>
     </div>
+
+<script>
+    document.getElementById('house-btn').addEventListener('click', () => {
+        window.location.href = 'house.html';
+    });
+</script>
 
 </body>
 </html>
